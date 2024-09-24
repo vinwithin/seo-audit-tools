@@ -72,6 +72,7 @@ class createCSV:
     def seo_tool_suggestions(self, url, tool_suggestions, suggestions_based_on_competition):
         new_suggestions = []
         user_website_tool_suggestions = tool_suggestions[url]  # user_website
+        # print(url)
         for sug_key, sug_value in user_website_tool_suggestions.items():
             my_rule = ''  # find the seo_rule
             if sug_key in suggestions_based_on_competition['seo_rules']:
@@ -82,8 +83,7 @@ class createCSV:
                 my_rule = 'No SEO rules found for this technique\n'
 
             new_suggestions.append(
-                {'Url': sug_value['page'], 
-                 'Missing SEO Technique': sug_key, 'Comments': sug_value['comments'], 'Data': sug_value['data'],
+                {'Missing SEO Technique': sug_key, 'Comments': sug_value['comments'], 'Data': sug_value['data'],
                  'SEO Rules': my_rule})
 
         self.seo = new_suggestions

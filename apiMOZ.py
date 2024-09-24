@@ -1,4 +1,4 @@
-from SEOmozAPISamples.python.mozscape import Mozscape
+# from SEOmozAPISamples.python.mozscape import Mozscape
 import requests
 
 
@@ -7,9 +7,9 @@ class apiMOZ:
         self.url = url
         self.cek = cek
         self.headers = {
-            "x-rapidapi-key": "d2007360f3mshb6455ce0da53b1bp1d4a1fjsn85182304884d",
-            "x-rapidapi-host": "moz-da-pa1.p.rapidapi.com",
-            "Content-Type": "application/json"
+            'x-rapidapi-key': "97efac4d4bmshc360867e4cc668ap13df32jsn3a2969e89a40",
+            'x-rapidapi-host': "moz-da-pa1.p.rapidapi.com",
+            'Content-Type': "application/json"
         }
        
 

@@ -25,7 +25,7 @@ user_website = "https://www.google.com/"
 #     exit()
 
 # Request from user the target keyword
-target_keyword = "Desain"
+target_keyword = "Cloud Provider"
 # if not target_keyword:
 #     print('Invalid keyword')
 #     exit()

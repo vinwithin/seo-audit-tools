@@ -37,17 +37,17 @@ class apiZenSerp:
         # print(organic)
         # get only the organic results
         organic = organic["organic"]
-
+        
         # if empty organic return error. It is not possible though
-        if not organic:
-            return 'Missing Organic SERPs'
-
+        
         # create a new empty dictionary
         my_dictionary = {}
 
         i = 1
         # loop on organic
         for website in organic:
+           
+
             # if localPack and videos exists then the result is from Google my business or Youtube and I have to
             # escape it
             if 'localPack' not in website.keys() and 'videos' not in website.keys():
@@ -59,7 +59,7 @@ class apiZenSerp:
                 # create a dictionary for this website
                 this_website = {
                     "position": i,
-                    "url": website["url"],
+                    "url": website.get('url', 'https://google.com/'),
                     # "title": website["title"],
                     # "description": website["description"],
                     "amp": 1

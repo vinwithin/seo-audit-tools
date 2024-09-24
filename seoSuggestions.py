@@ -165,11 +165,11 @@ class seoSuggestions:
         column_names = list(df.columns)
 
         # Get the last row of the DataFrame which is actually user's website
-        last_row = df.iloc[-1]
+        last_row = df.iloc[0]
 
         # Create a dictionary from the last row and column names
         user_website = {column_names[i]: last_row[i] for i in range(len(column_names))}
-
+        print(user_website)
         seo_recommendations = {}
         # Loop through the SEO techniques and return the suggestions
         for seo in seo_techniques:
