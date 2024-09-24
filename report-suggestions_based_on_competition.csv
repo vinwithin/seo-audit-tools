@@ -1,0 +1,23 @@
+Missing SEO Technique,Comments,SEO Rules
+amp,"It is suggested to use the [amp] SEO technique, which the majority of the competition have also applied. ","- According to Google's official documentation, Accelerated Mobile Pages (AMP) is a framework for building fast, mobile-friendly web pages. Google has indicated that the use of AMP can have a positive impact on a website's search engine ranking, as it is designed to load quickly and improve the user experience on mobile devices. Additionally, AMP pages are indicated by a special icon in mobile search results, which can help improve visibility and click-through rates.
+"
+images_alt,"It is suggested to use the [images_alt] SEO technique, which the majority of the competition have also applied. ","- Example: <img src=""..."" alt=""..."">
+- According to Google's Image publishing guidelines, adding descriptive alt text to your images can help people with visual impairments understand the content of your images. Google also considers alt text as a ranking factor for image search.
+- The Web Content Accessibility Guidelines (WCAG) recommend using alternative text for all non-text content, including images, to ensure accessibility for people with disabilities.
+- Moz, a leading SEO software provider, also recommends using alternative text for images as a best practice for SEO optimization.
+"
+title,"It is suggested to use the [title] SEO technique, which the majority of the competition have also applied. ","- Example: <title>...</title>
+- According to Google's Search Engine Optimization (SEO) Starter Guide, using descriptive, well-structured <title> tags can help make your page more accessible and understandable for both users and search engines. Google also considers <title> tags as a ranking factor for search results.
+- The Web Content Accessibility Guidelines (WCAG) also recommend using descriptive and concise <title> tags to ensure accessibility for people with disabilities.
+- Moz, a leading SEO software provider, recommends including targeted keywords in the <title> tag for better search engine visibility and click-through rates.
+"
+opengraph,"It is suggested to use the [opengraph] SEO technique, which the majority of the competition have also applied. ","- Example: <meta property=""og:title"" content=""..."" /><meta property=""og:description"" content=""..."" /><meta property=""og:image"" content=""..."" />
+- According to Facebook, Open Graph tags allow you to control how your website content appears when it is shared on Facebook, which can improve click-through rates and engagement.
+- Yoast, a popular SEO plugin for WordPress, recommends using Open Graph tags to help your content look better on social media platforms and to provide additional context for search engines.
+- Moz, a leading SEO software provider, also recommends using Open Graph tags for better social media engagement and search engine visibility.
+"
+gzip,"It is suggested to use the [gzip] SEO technique, which the majority of the competition have also applied. ","- Google Developers - Optimize Encoding and Transfer Size of Text-Based Assets: https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer
+- Mozilla Developer Network - HTTP compression: https://developer.mozilla.org/en-US/docs/Web/HTTP/Compression
+- GTmetrix - What is Gzip Compression?: https://gtmetrix.com/enable-gzip-compression.html
+- BetterExplained - The Importance Of Gzipping Your Website: https://betterexplained.com/articles/how-to-optimize-your-site-with-gzip-compression/
+"

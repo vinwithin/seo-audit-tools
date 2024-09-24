@@ -1,0 +1,71 @@
+Missing SEO Technique,Comments,Data,SEO Rules
+images_alt,The images on the WebPage are missing alternative tags. It is recommended to add alternative tags to all images for better accessibility and SEO optimization.,{'/textinputassistant/tia.png': ''},"- Example: <img src=""..."" alt=""..."">
+- According to Google's Image publishing guidelines, adding descriptive alt text to your images can help people with visual impairments understand the content of your images. Google also considers alt text as a ranking factor for image search.
+- The Web Content Accessibility Guidelines (WCAG) recommend using alternative text for all non-text content, including images, to ensure accessibility for people with disabilities.
+- Moz, a leading SEO software provider, also recommends using alternative text for images as a best practice for SEO optimization.
+"
+links_title,The links on the WebPage are missing title tags. It is recommended to add title tags to all links for better user experience and SEO optimization.,"{'https://www.google.com/imghp?hl=id&tab=wi': '', 'https://maps.google.co.id/maps?hl=id&tab=wl': '', 'https://play.google.com/?hl=id&tab=w8': '', 'https://www.youtube.com/?tab=w1': '', 'https://news.google.com/?tab=wn': '', 'https://mail.google.com/mail/?tab=wm': '', 'https://drive.google.com/?tab=wo': '', 'https://www.google.co.id/intl/id/about/products?tab=wh': '', 'http://www.google.co.id/history/optout?hl=id': '', '/preferences?hl=id': '', 'https://accounts.google.com/ServiceLogin?hl=id&passive=true&continue=https://www.google.com/&ec=GAZAAQ': '', '/advanced_search?hl=id&authuser=0': '', 'https://www.google.com/setprefs?sig=0_NSkiD9-K_G1oVp6kv-wCXENAYzs%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwjQxPO6kdmIAxVwzzgGHR-cCUQQ2ZgBCAY': '', 'https://www.google.com/setprefs?sig=0_NSkiD9-K_G1oVp6kv-wCXENAYzs%3D&hl=jv&source=homepage&sa=X&ved=0ahUKEwjQxPO6kdmIAxVwzzgGHR-cCUQQ2ZgBCAc': '', 'https://www.google.com/setprefs?sig=0_NSkiD9-K_G1oVp6kv-wCXENAYzs%3D&hl=ban&source=homepage&sa=X&ved=0ahUKEwjQxPO6kdmIAxVwzzgGHR-cCUQQ2ZgBCAg': '', '/intl/id/ads/': '', 'http://www.google.co.id/intl/id/services/': '', '/intl/id/about.html': '', 'https://www.google.com/setprefdomain?prefdom=ID&prev=https://www.google.co.id/&sig=K_VA7KuoFM3HpyUlMY2NzJ5MCHP7U%3D': ''}","- Example: <a href=""..."" title=""..."">
+- According to Google's Search Engine Optimization (SEO) Starter Guide, adding descriptive title tags to your links can help both users and search engines understand the content of your pages. Google also considers title tags as a ranking factor for search results.
+- The Web Content Accessibility Guidelines (WCAG) also recommend using descriptive text for links, including title attributes, to ensure accessibility for people with disabilities.
+- Moz, a leading SEO software provider, also recommends using descriptive title tags for links as a best practice for SEO optimization.
+"
+heading1,"It is recommended to utilize an H1 tag on the WebPage, incorporating the targeted keyword. Currently, the H1 tag is not being used.",,"- Example: <h1>...</h1>
+- According to Google's Search Engine Optimization (SEO) Starter Guide, the use of descriptive, well-structured headings can help make your page more accessible and understandable for both users and search engines. The guide recommends using one H1 tag per page, and incorporating your primary keyword into it.
+- Moz, a leading SEO software provider, also recommends using a single H1 tag on each page, and incorporating the primary keyword into it. They suggest using H2-H6 tags for subheadings and other content hierarchy.
+- Ahrefs, another popular SEO tool, also recommends using H1 tags and optimizing them with targeted keywords for better SEO performance.
+"
+heading2,The WebPage is not utilizing H2 tags. It is recommended to include H2 tags with the targeted keyword for better SEO optimization.,,"- Example: <h2>...</h2>
+- According to Google's Search Engine Optimization (SEO) Starter Guide, using descriptive, well-structured headings such as H2 tags can help make your page more accessible and understandable for both users and search engines. Google also considers headings as a ranking factor for search results.
+- Moz, a leading SEO software provider, recommends using H2 tags for subheadings and other content hierarchy. They suggest incorporating targeted keywords into H2 tags to help with SEO optimization.
+- Ahrefs, another popular SEO tool, also recommends using H2 tags for subheadings and incorporating targeted keywords into them for better SEO performance.
+"
+title,The title tag on the WebPage does not contain the targeted keyword. It is recommended to include the targeted keyword in the title tag for better SEO optimization.,Google,"- Example: <title>...</title>
+- According to Google's Search Engine Optimization (SEO) Starter Guide, using descriptive, well-structured <title> tags can help make your page more accessible and understandable for both users and search engines. Google also considers <title> tags as a ranking factor for search results.
+- The Web Content Accessibility Guidelines (WCAG) also recommend using descriptive and concise <title> tags to ensure accessibility for people with disabilities.
+- Moz, a leading SEO software provider, recommends including targeted keywords in the <title> tag for better search engine visibility and click-through rates.
+"
+meta_description,"A meta description is mandatory for SEO, but it is missing on the WebPage.",,"- Example: <meta name=""description"" content=""..."" />According to Google's Search Engine Optimization (SEO) Starter Guide, meta descriptions are an important element for on-page SEO, as they provide a concise summary of a webpage's content to search engines and users.
+- Moz, a leading SEO software provider, recommends including targeted keywords in the meta description for better search engine visibility and click-through rates.
+- Yoast, a popular SEO plugin for WordPress, advises website owners to create unique and compelling meta descriptions that accurately reflect the content on the page, while also including the targeted keyword.
+"
+opengraph,"The WebPage is not using Opengraph tags, which can be helpful for SEO optimization.",,"- Example: <meta property=""og:title"" content=""..."" /><meta property=""og:description"" content=""..."" /><meta property=""og:image"" content=""..."" />
+- According to Facebook, Open Graph tags allow you to control how your website content appears when it is shared on Facebook, which can improve click-through rates and engagement.
+- Yoast, a popular SEO plugin for WordPress, recommends using Open Graph tags to help your content look better on social media platforms and to provide additional context for search engines.
+- Moz, a leading SEO software provider, also recommends using Open Graph tags for better social media engagement and search engine visibility.
+"
+style,"The WebPage's stylesheets have not been minified, which can negatively impact website speed and SEO.","['/xjs/_/ss/k=xjs.hp.PnW3RmAQU-M.L.X.O/am=AQAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAACAAQEAAAAAAAAAAAAAAAIAARAAACgAC/d=1/ed=1/rs=ACT90oH9VlNXp3ZuAtLTlelcgO6D0SP9Gg/m=sb_he,d']","- Example: <link rel=""stylesheet"" href=""theme.min.css"">
+- According to Google's PageSpeed Insights, minifying CSS files can significantly reduce page load times and improve website speed.
+- HubSpot, a leading marketing software provider, recommends minifying stylesheets as part of a broader set of strategies to improve website speed and SEO.
+- Yoast, a popular SEO plugin for WordPress, also recommends minifying stylesheets to improve website performance and SEO.
+"
+sitemap,"A sitemap is crucial for SEO optimization, but the WebPage is not currently using one.",,"- Example: <link rel=""sitemap"" type=""application/xml"" href=""path/to/sitemap.xml"" />
+- From Google's official documentation: ""A sitemap is a file where you provide information about the pages, videos, and other files on your site, and the relationships between them. Search engines like Google read this file to more intelligently crawl your site. A sitemap tells Google which pages and files you think are important in your site, and also provides valuable information about these files: for example, for pages, when the page was last updated, how often the page is changed, and any alternate language versions of a page.""
+- According to Yoast SEO: ""A sitemap is a file where you can list the web pages of your site to tell Google and other search engines about the organization of your site content. Search engine web crawlers like Googlebot read this file to more intelligently crawl your site.""
+- From Moz: ""Sitemaps help search engines index your website correctly and quickly. A sitemap is essentially a map of all the pages on your website. Submitting a sitemap to search engines ensures that they know about all the pages on your site, including URLs that may not be discoverable by their normal crawling process.""
+"
+rss,"The WebPage is not utilizing an RSS feed, which can be beneficial for SEO optimization.",,"- Example: <link rel=""alternate"" type=""application/rss+xml"" title=""Title of Your RSS Feed"" href=""http://www.example.com/rss.xml"" />
+- Utilizing an RSS feed can allow search engines to easily crawl and index your website's content, which can help improve your search engine visibility.
+- RSS feeds can also make it easier for visitors to subscribe to your content and stay up-to-date with new posts and updates.
+"
+json_ld,"It appears that the WebPage does not include JSON-LD structured data, which can be beneficial for SEO. Consider using JSON-LD, Microdata, or RDFa.",,"- Google's documentation on structured data: https://developers.google.com/search/docs/guides/intro-structured-data
+- Moz's guide to structured data: https://moz.com/learn/seo/schema-structured-data
+- Search Engine Land's article on the benefits of structured data: https://www.searchenginepeople.com/blog/5-reasons-add-structured-data-site.html
+"
+inline_css,"It appears that the WebPage is using inline CSS, which is not optimal for SEO. It is recommended to include CSS styles in an external file for better website performance and search engine visibility.",,"- According to Google's PageSpeed Insights, one of the key factors affecting website speed is the number of CSS resources that need to be downloaded and processed by the browser. When CSS is inlined, it adds to the size of the HTML file, which can increase the load time for the webpage. Additionally, search engines may have a harder time interpreting the CSS styles if they are not in a separate file.
+- To optimize CSS delivery and improve website speed and SEO, it is recommended to externalize CSS styles in a separate file, and to minify and compress the file to reduce its size. This can also make it easier to maintain and update the website's design and styling.
+"
+microdata,"It appears that the WebPage does not include Microdata structured data, which can be beneficial for SEO. Consider using JSON-LD, Microdata, or RDFa.",,"- Google's documentation on structured data: https://developers.google.com/search/docs/guides/intro-structured-data
+- Moz's guide to structured data: https://moz.com/learn/seo/schema-structured-data
+- Search Engine Land's article on the benefits of structured data: https://www.searchenginepeople.com/blog/5-reasons-add-structured-data-site.html
+"
+rdfa,"It appears that the WebPage does not include RDFa structured data, which can be beneficial for SEO. Consider using JSON-LD, Microdata, or RDFa.",,"- Google's documentation on structured data: https://developers.google.com/search/docs/guides/intro-structured-data
+- Moz's guide to structured data: https://moz.com/learn/seo/schema-structured-data
+- Search Engine Land's article on the benefits of structured data: https://www.searchenginepeople.com/blog/5-reasons-add-structured-data-site.html
+"
+gzip,"It appears that the WebPage is not utilizing gzip compression, which can help improve loading speed, save bandwidth for users, and have positive impacts on SEO.",,"- Google Developers - Optimize Encoding and Transfer Size of Text-Based Assets: https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer
+- Mozilla Developer Network - HTTP compression: https://developer.mozilla.org/en-US/docs/Web/HTTP/Compression
+- GTmetrix - What is Gzip Compression?: https://gtmetrix.com/enable-gzip-compression.html
+- BetterExplained - The Importance Of Gzipping Your Website: https://betterexplained.com/articles/how-to-optimize-your-site-with-gzip-compression/
+"
+amp,"It appears that the WebPage is not utilizing AMP, which can be beneficial for SEO optimization.",,"- According to Google's official documentation, Accelerated Mobile Pages (AMP) is a framework for building fast, mobile-friendly web pages. Google has indicated that the use of AMP can have a positive impact on a website's search engine ranking, as it is designed to load quickly and improve the user experience on mobile devices. Additionally, AMP pages are indicated by a special icon in mobile search results, which can help improve visibility and click-through rates.
+"

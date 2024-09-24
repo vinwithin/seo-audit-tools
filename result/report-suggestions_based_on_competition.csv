@@ -1,0 +1,26 @@
+Missing SEO Technique,Comments,SEO Rules
+amp,"It is suggested to use the [amp] SEO technique, which the majority of the competition have also applied. ","- According to Google's official documentation, Accelerated Mobile Pages (AMP) is a framework for building fast, mobile-friendly web pages. Google has indicated that the use of AMP can have a positive impact on a website's search engine ranking, as it is designed to load quickly and improve the user experience on mobile devices. Additionally, AMP pages are indicated by a special icon in mobile search results, which can help improve visibility and click-through rates.
+"
+heading1,"It is suggested to use the [heading1] SEO technique, which the majority of the competition have also applied. ","- Example: <h1>...</h1>
+- According to Google's Search Engine Optimization (SEO) Starter Guide, the use of descriptive, well-structured headings can help make your page more accessible and understandable for both users and search engines. The guide recommends using one H1 tag per page, and incorporating your primary keyword into it.
+- Moz, a leading SEO software provider, also recommends using a single H1 tag on each page, and incorporating the primary keyword into it. They suggest using H2-H6 tags for subheadings and other content hierarchy.
+- Ahrefs, another popular SEO tool, also recommends using H1 tags and optimizing them with targeted keywords for better SEO performance.
+"
+meta_description,"It is suggested to use the [meta_description] SEO technique, which the majority of the competition have also applied. ","- Example: <meta name=""description"" content=""..."" />According to Google's Search Engine Optimization (SEO) Starter Guide, meta descriptions are an important element for on-page SEO, as they provide a concise summary of a webpage's content to search engines and users.
+- Moz, a leading SEO software provider, recommends including targeted keywords in the meta description for better search engine visibility and click-through rates.
+- Yoast, a popular SEO plugin for WordPress, advises website owners to create unique and compelling meta descriptions that accurately reflect the content on the page, while also including the targeted keyword.
+"
+opengraph,"It is suggested to use the [opengraph] SEO technique, which the majority of the competition have also applied. ","- Example: <meta property=""og:title"" content=""..."" /><meta property=""og:description"" content=""..."" /><meta property=""og:image"" content=""..."" />
+- According to Facebook, Open Graph tags allow you to control how your website content appears when it is shared on Facebook, which can improve click-through rates and engagement.
+- Yoast, a popular SEO plugin for WordPress, recommends using Open Graph tags to help your content look better on social media platforms and to provide additional context for search engines.
+- Moz, a leading SEO software provider, also recommends using Open Graph tags for better social media engagement and search engine visibility.
+"
+json_ld,"It is suggested to use the [json_ld] SEO technique, which the majority of the competition have also applied. ","- Google's documentation on structured data: https://developers.google.com/search/docs/guides/intro-structured-data
+- Moz's guide to structured data: https://moz.com/learn/seo/schema-structured-data
+- Search Engine Land's article on the benefits of structured data: https://www.searchenginepeople.com/blog/5-reasons-add-structured-data-site.html
+"
+gzip,"It is suggested to use the [gzip] SEO technique, which the majority of the competition have also applied. ","- Google Developers - Optimize Encoding and Transfer Size of Text-Based Assets: https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer
+- Mozilla Developer Network - HTTP compression: https://developer.mozilla.org/en-US/docs/Web/HTTP/Compression
+- GTmetrix - What is Gzip Compression?: https://gtmetrix.com/enable-gzip-compression.html
+- BetterExplained - The Importance Of Gzipping Your Website: https://betterexplained.com/articles/how-to-optimize-your-site-with-gzip-compression/
+"
