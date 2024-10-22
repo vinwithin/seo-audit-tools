@@ -33,7 +33,7 @@ target_keyword = "Cloud Provider"
 # create a free account on https://app.zenserp.com/
 # get your API key up to 50 free API requests per month
 # or upgrade to premium
-zenserp_api_key = "6e4babe0-7959-11ef-be10-49138ef6dc7a"
+zenserp_api_key = "f325ae60-7af5-11ef-ad1b-13cda9f43d06"
 # input('Type the ZenSerp Api Key\n')  # Ex. 5c2cc020-69c3-11ed-8cef-d7f0d916d783
 # if not zenserp_api_key:
 #     print('Invalid API Key')
@@ -52,7 +52,9 @@ moz_api_client = "mozscape-4uUA5lLLna"
 #     exit()
 
 moz_api_key = "YQ6jJuBZ1NCAO2KcCZuFAdrZrmDr1yi5"
-cek = "https://moz-da-pa1.p.rapidapi.com/v1/getDaPa"
+
+
+cek = "https://domain-authority1.p.rapidapi.com/seo-tools/get-domain-info"
 # input("Type the Moz API Key ID\n")  # Ex. 442b26fb278eb50caf8b1412a702c077
 # if not moz_api_key:
 #     print('Invalid Moz API Key')

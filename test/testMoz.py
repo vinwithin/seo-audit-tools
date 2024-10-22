@@ -8,7 +8,8 @@ class apiMOZ:
         self.cek = cek
         self.headers = {
             "x-rapidapi-key": "8473d4142amsh2564d5b0704b815p119312jsn3a37bb0ffcba",
-	        "x-rapidapi-host": "domain-authority1.p.rapidapi.com"
+            "x-rapidapi-host": "moz-da-pa1.p.rapidapi.com",
+            "Content-Type": "application/json"
         }
        
 
@@ -20,21 +21,21 @@ class apiMOZ:
     
     def get_da(self):
         # Parameter untuk API request
-        querystring = {"domain": self.url}
+        params = {"q": self.url}
 
         # Kirim request ke API
-        # response = requests.post(self.cek, headers=self.headers, json=params)
-        response = requests.get(self.cek, headers=self.headers, params=querystring)
+        response = requests.post(self.cek, headers=self.headers, json=params)
 
         # Cek apakah responsnya sukses
         if response.status_code == 200:
             data = response.json()
 
             # Mengakses nilai domain_authority dari hasil API
-        
-            domain_power = data["result"]['domain_power']
-            return domain_power
-           
+            if isinstance(data, list) and 'domain_authority' in data[0]:
+                domain_power = data[0]['domain_authority']
+                return domain_power
+            else:
+                return "Invalid response format"
         else:
             return f"Request failed with status code {response.status_code}"
 
